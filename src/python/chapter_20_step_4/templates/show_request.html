@@ -1,0 +1,14 @@
+<html>
+  <body>
+      <h1>Request Line:</h1>
+      <p>
+          <!-- それできるのか -->
+          <!-- formatだと文字列内の関数呼び出しができなくて、プロパティの呼び出しとかはいけるのか -->
+          {request.method} {request.path} {request.http_version}
+      </p>
+      <h1>Headers:</h1>
+      <pre>{headers}</pre>
+      <h1>Body:</h1>
+      <pre>{body}</pre>
+  </body>
+</html>
